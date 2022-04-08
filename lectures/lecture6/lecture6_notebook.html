@@ -14771,7 +14771,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>&lt;_csv.reader object at 0x10758dfc0&gt;
+<pre>&lt;_csv.reader object at 0x106f6c9e0&gt;
 </pre>
 </div>
 </div>
@@ -15368,22 +15368,22 @@ sw4;Cisco;3650;London</code></pre>
 <span class="p">}</span><span class="w"></span>
 </pre></div>
 <h2 id="%D0%A7%D1%82%D0%B5%D0%BD%D0%B8%D0%B5">&#1063;&#1090;&#1077;&#1085;&#1080;&#1077;<a class="anchor-link" href="#%D0%A7%D1%82%D0%B5%D0%BD%D0%B8%D0%B5">&#182;</a></h2><p>Файл <code>sw_templates.json</code>:</p>
-
-<pre><code>{
-  "access": [
-    "switchport mode access",
-    "switchport access vlan",
-    "switchport nonegotiate",
-    "spanning-tree portfast",
-    "spanning-tree bpduguard enable"
-  ],
-  "trunk": [
-    "switchport trunk encapsulation dot1q",
-    "switchport mode trunk",
-    "switchport trunk native vlan 999",
-    "switchport trunk allowed vlan"
-  ]
-}</code></pre>
+<div class="highlight"><pre><span></span><span class="p">{</span><span class="w"></span>
+<span class="w">  </span><span class="nt">&quot;access&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w"></span>
+<span class="w">    </span><span class="s2">&quot;switchport mode access&quot;</span><span class="p">,</span><span class="w"></span>
+<span class="w">    </span><span class="s2">&quot;switchport access vlan&quot;</span><span class="p">,</span><span class="w"></span>
+<span class="w">    </span><span class="s2">&quot;switchport nonegotiate&quot;</span><span class="p">,</span><span class="w"></span>
+<span class="w">    </span><span class="s2">&quot;spanning-tree portfast&quot;</span><span class="p">,</span><span class="w"></span>
+<span class="w">    </span><span class="s2">&quot;spanning-tree bpduguard enable&quot;</span><span class="w"></span>
+<span class="w">  </span><span class="p">],</span><span class="w"></span>
+<span class="w">  </span><span class="nt">&quot;trunk&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w"></span>
+<span class="w">    </span><span class="s2">&quot;switchport trunk encapsulation dot1q&quot;</span><span class="p">,</span><span class="w"></span>
+<span class="w">    </span><span class="s2">&quot;switchport mode trunk&quot;</span><span class="p">,</span><span class="w"></span>
+<span class="w">    </span><span class="s2">&quot;switchport trunk native vlan 999&quot;</span><span class="p">,</span><span class="w"></span>
+<span class="w">    </span><span class="s2">&quot;switchport trunk allowed vlan&quot;</span><span class="w"></span>
+<span class="w">  </span><span class="p">]</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
+</pre></div>
 <p>Для чтения в модуле json есть два метода:</p>
 <ul>
 <li><code>json.load</code> - метод считывает файл в формате JSON и возвращает объекты Python</li>
@@ -15433,18 +15433,18 @@ sw4;Cisco;3650;London</code></pre>
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>{&#39;trunk&#39;: [&#39;switchport trunk encapsulation dot1q&#39;, &#39;switchport mode trunk&#39;, &#39;switchport trunk native vlan 999&#39;, &#39;switchport trunk allowed vlan&#39;], &#39;access&#39;: [&#39;switchport mode access&#39;, &#39;switchport access vlan&#39;, &#39;switchport nonegotiate&#39;, &#39;spanning-tree portfast&#39;, &#39;spanning-tree bpduguard enable&#39;]}
-trunk
-switchport trunk encapsulation dot1q
-switchport mode trunk
-switchport trunk native vlan 999
-switchport trunk allowed vlan
+<pre>{&#39;access&#39;: [&#39;switchport mode access&#39;, &#39;switchport access vlan&#39;, &#39;switchport nonegotiate&#39;, &#39;spanning-tree portfast&#39;, &#39;spanning-tree bpduguard enable&#39;], &#39;trunk&#39;: [&#39;switchport trunk encapsulation dot1q&#39;, &#39;switchport mode trunk&#39;, &#39;switchport trunk native vlan 999&#39;, &#39;switchport trunk allowed vlan&#39;]}
 access
 switchport mode access
 switchport access vlan
 switchport nonegotiate
 spanning-tree portfast
 spanning-tree bpduguard enable
+trunk
+switchport trunk encapsulation dot1q
+switchport mode trunk
+switchport trunk native vlan 999
+switchport trunk allowed vlan
 </pre>
 </div>
 </div>
@@ -15505,18 +15505,18 @@ spanning-tree bpduguard enable
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>{&#39;trunk&#39;: [&#39;switchport trunk encapsulation dot1q&#39;, &#39;switchport mode trunk&#39;, &#39;switchport trunk native vlan 999&#39;, &#39;switchport trunk allowed vlan&#39;], &#39;access&#39;: [&#39;switchport mode access&#39;, &#39;switchport access vlan&#39;, &#39;switchport nonegotiate&#39;, &#39;spanning-tree portfast&#39;, &#39;spanning-tree bpduguard enable&#39;]}
-trunk
-switchport trunk encapsulation dot1q
-switchport mode trunk
-switchport trunk native vlan 999
-switchport trunk allowed vlan
+<pre>{&#39;access&#39;: [&#39;switchport mode access&#39;, &#39;switchport access vlan&#39;, &#39;switchport nonegotiate&#39;, &#39;spanning-tree portfast&#39;, &#39;spanning-tree bpduguard enable&#39;], &#39;trunk&#39;: [&#39;switchport trunk encapsulation dot1q&#39;, &#39;switchport mode trunk&#39;, &#39;switchport trunk native vlan 999&#39;, &#39;switchport trunk allowed vlan&#39;]}
 access
 switchport mode access
 switchport access vlan
 switchport nonegotiate
 spanning-tree portfast
 spanning-tree bpduguard enable
+trunk
+switchport trunk encapsulation dot1q
+switchport mode trunk
+switchport trunk native vlan 999
+switchport trunk allowed vlan
 </pre>
 </div>
 </div>
